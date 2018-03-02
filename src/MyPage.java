@@ -98,7 +98,7 @@ PreparedStatement pst;
             }
         });
 
-        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\hchan\\Pictures\\eyes01.png")); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/eyes01.png"))); // NOI18N
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
