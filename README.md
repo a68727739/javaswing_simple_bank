@@ -1,5 +1,9 @@
 ```
 用javaswing搭配sqlite做的簡單銀行系統
+開發時使用neatbean可使用neatbean匯入專案
+資料庫管理工具可使用 DB.Browser.for.SQLite 
+下載專案後需要調整電腦資料庫檔實體路徑  javaconnect.java  中的
+Connection conn=DriverManager.getConnection("jdbc:sqlite:D:\\project\\java\\javaswing_simple_bank\\bank.sqlite");
 ```
 ```
 登入畫面
